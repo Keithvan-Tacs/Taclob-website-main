@@ -1,0 +1,419 @@
+
+/* BASIC top bar and header */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fbf3ea;
+    color: #3b2314;
+}
+
+h1, h2, h3 {
+    font-family: Georgia, serif;
+}
+
+
+img {
+    max-width: 100%;
+}
+
+
+/* TOPBAR */
+
+
+.topbar {
+    background-color: #24150d;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    padding: 15px;
+}
+
+
+/* HEADER */
+
+header {
+    background-color: #3b2314;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+
+  
+}
+
+
+/* brand */
+
+
+.brand{
+    color: white;
+    text-decoration: none;
+    font-family: georgia, serif;
+    font-size: 30px;
+    font-weight: bold;
+
+
+}
+
+
+.brand small{
+    display: block;
+    color: #E8892B;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    letter-spacing: 2px;
+    margin-top: 5px;
+    
+
+}
+
+/* NAVIGATION */
+.navbar ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+
+
+}
+
+.navbar li{
+
+
+    float: left;
+    margin: 5px;
+
+}
+
+
+.navbar a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: block;
+    text-align: center;
+    border-radius: 30px;
+   
+}
+
+
+.navbar a:hover,
+.navbar a.active {
+    background-color: #E8892B;
+}
+
+
+
+
+
+/* 
+top bar and header ends */
+
+
+
+/* BANNER (home section)*/
+
+.banner {
+    background-color: #3b2314;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 60px 10%;
+}
+
+
+.banner-text,
+.banner-image {
+    flex: 1;
+}
+
+.banner-image img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+
+
+
+.banner h1 {
+    color: white;
+    font-size: 54px;
+    line-height: 1.1;
+    margin: 15px 0;
+}
+
+
+.banner p{
+     color: white;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+
+.banner .tagline {
+    color: #E8892B;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+/* button */
+
+
+
+/* BUTTONS */
+
+.button {
+    display: inline-block;
+    background-color: #E8892B;
+    color: #3b2314;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 30px;
+    margin-top: 15px;
+    border: 2px solid white;
+    
+
+}
+
+
+.button.outline {
+    background-color: transparent;
+    color: white;
+}
+
+
+
+/* menu - sections*/
+
+
+.section {
+    padding: 40px 10% 10px 10%;
+}
+
+.section h2{
+    font-size: 32px;
+    border-bottom: 3px solid #E8892B;
+    padding-bottom: 8px;
+    
+}
+
+
+.menu-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu-list li {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px dotted #b8a595;
+}
+
+
+/* 
+pop-up events */
+
+
+
+/* POP-UP EVENTS */
+
+.dark {
+    background-color: #3b2314;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 50px 10%;
+    margin-top: 40px;
+}
+
+.dark-text,
+.dark-image {
+    flex: 1;
+}
+
+.dark-image img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+
+
+
+/* POP-UP EVENTS  end*/
+
+
+
+/* Inquiry Section */
+
+
+#inquiry {
+    background-color: #f7ead9;
+    padding: 60px 10%;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+
+.inquiry-info {
+    flex: 1;
+}
+
+#inquiry form {
+    flex: 1;
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+#inquiry label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    
+}
+
+#inquiry input,
+#inquiry select,
+#inquiry textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px;
+    margin-top: 8px;
+    border: 1px solid #dfc5ad;
+    border-radius: 8px;
+}
+
+
+
+
+
+#inquiry button {
+    margin-top: 20px;
+    padding: 14px 25px;
+    background-color: #E8892B;
+    border: none;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+/* GALLERY */
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+
+    
+}
+
+.gallery img {
+    width: 30%;
+    border-radius: 10px;
+}
+
+
+
+/* 
+================================================== */
+/* About Us section */
+
+.section {
+    padding: 40px 10% 10px 10%;
+}
+
+.section h2 {
+    font-size: 34px;
+    border-bottom: 3px solid #E8892B;
+    padding-bottom: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+===========================
+ FOOTER 
+===========================  */
+footer {
+    background-color: #24150d;
+    color: white;
+    padding: 50px 10% 20px 10%;
+}
+
+
+
+.footer-columns {
+    display: flex;
+    gap: 40px;
+}
+
+
+.footer-columns div {
+    flex: 1;
+}
+
+footer h3 {
+    color: #E8892B;
+    font-family: Georgia, serif;
+    margin-top: 0;
+}
+
+footer p {
+    line-height: 1.7;
+    font-size: 15px;
+}
+
+footer a {
+    color: white;
+}
+
+.footer-bottom {
+    border-top: 1px solid #714428;
+    margin-top: 30px;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
